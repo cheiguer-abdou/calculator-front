@@ -84,6 +84,13 @@ npm run build
 - **Path:** `/records`
 - **Method:** `GET`
 - **Description:** Retrieves a list of records.
+**Request Body:**
+  ```json
+  {
+    page: 1,
+    per_page: 10,
+    'sort[order]': 'desc'
+  }
 
 ### 8.Square Root
 - **Path:** `/square-root`
