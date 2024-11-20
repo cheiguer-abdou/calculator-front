@@ -24,7 +24,7 @@ npm run build
     division: 2,
     square_root: 3,
     random_string: 5
-  };
+  }
 ```
 # API Documentation
 
