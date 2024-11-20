@@ -99,9 +99,9 @@ npm run build
 **Request Body:**
   ```json
   {
-    page: 1,
-    per_page: 10,
-    'sort[order]': 'desc'
+    "page": 1,
+    "per_page": 10,
+    "sort[order]": "desc"
   }
 
 ### 8.Square Root
