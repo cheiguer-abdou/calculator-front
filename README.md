@@ -17,7 +17,7 @@ npm run build
 
 ### Operations cost:
 ```json
-  OPERATION_COSTS = {
+  const OPERATION_COSTS = {
     addition: 1,
     subtraction: 1,
     multiplication: 2,
