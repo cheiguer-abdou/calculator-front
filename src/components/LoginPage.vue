@@ -5,7 +5,7 @@ import { Authenticator, useAuthenticator } from "@aws-amplify/ui-vue";
 import { Amplify } from 'aws-amplify';
 import { fetchUserAttributes } from 'aws-amplify/auth';
 import { Hub } from "@aws-amplify/core"
-import awsconfig from '../aws-exports';
+import awsconfig from '../utils/aws-exports';
 
 // Configure Amplify
 Amplify.configure(awsconfig);
