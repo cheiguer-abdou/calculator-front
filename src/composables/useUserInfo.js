@@ -1,4 +1,3 @@
-// composables/useUserInfo.js
 import { ref, readonly } from 'vue';
 import { getCurrentUser, fetchUserAttributes, signOut as amplifySignOut } from 'aws-amplify/auth';
 import { useRouter } from 'vue-router';
